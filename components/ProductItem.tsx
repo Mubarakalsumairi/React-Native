@@ -9,16 +9,16 @@ interface ProductItemProps  {
 const ProductItem = ({ name, price, image}: ProductItemProps) => {
   return (
     <View>
-      <Text>{name}</Text>
+      <Text style={{ fontSize:18, fontWeight: `bold`}}>{name}</Text>
       <Image 
        source={{ uri: image }}
-       style={{ width: 200, height: 200,
+       style={{ width: 150, height: 150,
         borderWidth: 2,
         borderColor: `#D4A574`,
         borderRadius: 12, 
         }}
      />
-     <Text>{price.toFixed(3)}KD</Text>
+     <Text style={{ fontSize: 18, fontWeight: `bold`, color:'#595946'}}>{price.toFixed(3)}KD</Text>
     </View>
   )
 }
