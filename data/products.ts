@@ -8,6 +8,7 @@ name: "Chocolate red", price:3.500,image:"https://tse3.mm.bing.net/th/id/OIP.ooZ
     name: "Chocolate cake", price:4.500 ,image:"https://butternutbakeryblog.com/wp-content/uploads/2023/04/chocolate-cake.jpg"
 },
 
-
-
+{
+    name: "vanilla cake", price:5.000, image:"https://tse4.mm.bing.net/th/id/OIP.gyTcR-SBu6nYfRa0eAsjRAHaLH?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+}, 
 ]

@@ -12,7 +12,11 @@ const ProductItem = ({ name, price, image}: ProductItemProps) => {
       <Text>{name}</Text>
       <Image 
        source={{ uri: image }}
-       style={{ width: 200, height: 200 }}
+       style={{ width: 200, height: 200,
+        borderWidth: 2,
+        borderColor: `#D4A574`,
+        borderRadius: 12, 
+        }}
      />
      <Text>{price.toFixed(3)}KD</Text>
     </View>
